@@ -23,10 +23,10 @@ if '/start' in msgText:
                     bot.editMessageText(message2,'Su Token es: '+modif)
                     client.logout()
 
-bot_token = os.environ.get('bot_token')
+bot_token = os.environ.get('5385354366:AAHUlY12aEGiFevVAJmrt6C1NjtwofZx8cI')
     print('init bot.')
     #set in debug
-    #bot_token = '5350913309:AAE6_F3tyck8PQSComzgd0o6AeQ3xpKDcIU'
+    #bot_token = '5385354366:AAHUlY12aEGiFevVAJmrt6C1NjtwofZx8cI'
     bot = ObigramClient(bot_token)
     bot.onMessage(onmessage)
     bot.onCallbackData('/cancel ',cancel_task)
